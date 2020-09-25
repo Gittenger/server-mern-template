@@ -1,0 +1,7 @@
+{
+  "javascript.suggest.paths": true,
+  "files.exclude": {
+    ".vscode/": true,
+    ".prettierrc": true
+  }
+}

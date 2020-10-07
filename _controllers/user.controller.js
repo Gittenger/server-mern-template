@@ -14,7 +14,7 @@ const filterObj = (obj, ...allowedFields) => {
 };
 
 //middleware to pass currently logged in user ID to getOne
-exports.getMe = (req, res, next) => {
+exports.getMyId = (req, res, next) => {
   req.params.id = req.user.id;
   next();
 };

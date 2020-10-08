@@ -3,8 +3,6 @@
   "version": "1.0.0",
   "description": "server side of mern template",
   "main": "app.js",
-  "private": true,
-  "repository": "github:Gittenger/server-mern-template",
   "scripts": {
     "start": "nodemon app.js"
   },
